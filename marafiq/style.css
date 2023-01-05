@@ -1,0 +1,206 @@
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            scroll-padding-top: 2rem;
+            font-family: 'Cairo', sans-serif;
+        }
+        /* Variables */
+        
+         :root {
+            --desc-color: #333333;
+            --heading-color: #94B867;
+            --title-color: #585656;
+            --btn-color: #198754;
+            --white: #fff;
+            --body-color: #fff;
+            --section-color: #FAFBFA;
+            --border-shadow: 3px 3px 19px #94B867;
+            --border-radius: 37px;
+            ;
+        }
+        
+        body {
+            color: var(--bg-color);
+            background-color: var(--body-color);
+        }
+        
+        section {
+            padding: 5rem 2rem 3rem;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        h1 {
+            font-size: 6rem;
+            color: var(--heading-color);
+            opacity: 63%;
+            font-weight: bold;
+        }
+        
+        .heading {
+            font-size: 5rem;
+            font-weight: normal;
+        }
+        
+        .title {
+            font-size: 2rem;
+            font-weight: normal;
+        }
+        
+        p {
+            font-size: 1rem;
+            color: var(--desc-color);
+            font-weight: normal;
+            margin-bottom: 3rem;
+        }
+        
+        .btn {
+            background-color: var(--btn-color);
+            color: var(--white);
+            padding: .25rem .5rem;
+            border-radius: 4px;
+        }
+        
+        a .submit {
+            margin-top: 2rem;
+        }
+        
+        .btn:hover {}
+        
+        .register {
+            background-color: var(--heading-color);
+        }
+        
+        .card {
+            border: 1px solid var(--heading-color);
+            box-shadow: var(--border-shadow);
+            border-radius: var(--border-radius);
+        }
+        
+        span {}
+        
+        input {}
+        
+        textarea {}
+        
+        .bx {}
+        
+        .container {
+            max-width: 960px;
+            margin: auto;
+            width: 100%;
+        }
+        
+        header {
+            width: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .logo {
+            width: 80px;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        ul {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .nav-item {
+            color: var(--desc-color);
+            font-weight: bold;
+        }
+        
+        .nav-item:hover {
+            border-bottom: 3px solid var(--heading-color);
+            transition: .2s ease-in;
+        }
+        
+        .home {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            align-items: center;
+            background-color: var(--section-color);
+        }
+        
+        .home-img {
+            width: 50%;
+        }
+        
+        .home-img img {}
+        
+        .home-content {
+            width: 50%;
+        }
+        /*============= about us==========*/
+        
+        .aboutUs {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .aboutUs-card {
+            width: 50%;
+        }
+        
+        .video-card {
+            width: 40%;
+        }
+        /*============ service===========*/
+        
+        .services {
+            text-align: center;
+        }
+        
+        .services-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .service-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        .service-card p {
+            margin-top: 1rem;
+        }
+        
+        .service-card i {
+            font-size: 80px;
+            color: var(--heading-color);
+        }
+        
+        .i-s {
+            font-size: 3rem;
+        }
